@@ -17,7 +17,6 @@ jobs:
         go-version: 1.17
     - name: Test
       run: go test -v ./...
-
 deploy:
   runs-on: ubuntu-latest
   # needsで直列実行指定。ここではtestジョブの後に実行
