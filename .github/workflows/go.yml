@@ -1,4 +1,4 @@
-name: Go deploy
+name: Go deploy2
 on:
   push:
     tags:
